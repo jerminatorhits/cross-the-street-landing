@@ -7,10 +7,10 @@ import { Section } from '../layout/Section';
 const Banner = () => (
   <Section>
     <CTABanner
-      title="Lorem ipsum dolor sit amet consectetur adipisicing elit."
-      subtitle="Start your Free Trial."
+      title={`Join the revolution in child safety. 🌐👫`}
+      subtitle="Let's create a safer world, one virtual step at a time."
       button={
-        <Link href="https://creativedesignsguru.com/category/nextjs/">
+        <Link href="https://www.meta.com/s/9gX9GJJxM">
           <Button>Get Started</Button>
         </Link>
       }

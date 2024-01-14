@@ -1,0 +1,54 @@
+[debug] [2024-01-14T08:11:00.590Z] ----------------------------------------------------------------------
+[debug] [2024-01-14T08:11:00.591Z] Command:       /Users/jeremykwa/.nvm/versions/node/v18.17.1/bin/node /Users/jeremykwa/.nvm/versions/node/v18.17.1/bin/firebase login
+[debug] [2024-01-14T08:11:00.592Z] CLI Version:   13.0.3
+[debug] [2024-01-14T08:11:00.592Z] Platform:      darwin
+[debug] [2024-01-14T08:11:00.592Z] Node Version:  v18.17.1
+[debug] [2024-01-14T08:11:00.593Z] Time:          Sun Jan 14 2024 00:11:00 GMT-0800 (Pacific Standard Time)
+[debug] [2024-01-14T08:11:00.593Z] Env Overrides: FIREBASE_CLIENT_ID
+[debug] [2024-01-14T08:11:00.594Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-01-14T08:11:00.596Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[info] i  Firebase optionally collects CLI and Emulator Suite usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[debug] [2024-01-14T08:11:00.929Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2024-01-14T08:11:00.930Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[info] i  To change your data collection preference at any time, run `firebase logout` and log in again. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=101113783571913860742&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=180564442&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2024-01-14T08:11:35.523Z] ----------------------------------------------------------------------
+[debug] [2024-01-14T08:11:35.525Z] Command:       /Users/jeremykwa/.nvm/versions/node/v18.17.1/bin/node /Users/jeremykwa/.nvm/versions/node/v18.17.1/bin/firebase login
+[debug] [2024-01-14T08:11:35.525Z] CLI Version:   13.0.3
+[debug] [2024-01-14T08:11:35.525Z] Platform:      darwin
+[debug] [2024-01-14T08:11:35.526Z] Node Version:  v18.17.1
+[debug] [2024-01-14T08:11:35.527Z] Time:          Sun Jan 14 2024 00:11:35 GMT-0800 (Pacific Standard Time)
+[debug] [2024-01-14T08:11:35.527Z] Env Overrides: FIREBASE_CLIENT_ID
+[debug] [2024-01-14T08:11:35.527Z] ----------------------------------------------------------------------
+[debug] 
+[info] i  Firebase optionally collects CLI and Emulator Suite usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[info] i  To change your data collection preference at any time, run `firebase logout` and log in again. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=101113783571913860742&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=615772967&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2024-01-14T08:12:15.259Z] ----------------------------------------------------------------------
+[debug] [2024-01-14T08:12:15.261Z] Command:       /Users/jeremykwa/.nvm/versions/node/v18.17.1/bin/node /Users/jeremykwa/.nvm/versions/node/v18.17.1/bin/firebase login
+[debug] [2024-01-14T08:12:15.261Z] CLI Version:   13.0.3
+[debug] [2024-01-14T08:12:15.262Z] Platform:      darwin
+[debug] [2024-01-14T08:12:15.262Z] Node Version:  v18.17.1
+[debug] [2024-01-14T08:12:15.263Z] Time:          Sun Jan 14 2024 00:12:15 GMT-0800 (Pacific Standard Time)
+[debug] [2024-01-14T08:12:15.264Z] Env Overrides: FIREBASE_CLIENT_ID
+[debug] [2024-01-14T08:12:15.264Z] ----------------------------------------------------------------------
+[debug] 
+[info] i  Firebase optionally collects CLI and Emulator Suite usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[info] i  To change your data collection preference at any time, run `firebase logout` and log in again. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=101113783571913860742&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=592487652&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
