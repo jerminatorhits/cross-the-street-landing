@@ -7,6 +7,7 @@ module.exports = withBundleAnalyzer({
   eslint: {
     dirs: ['.'],
   },
+  distDir: 'build',
   poweredByHeader: false,
   trailingSlash: true,
   basePath: '',
