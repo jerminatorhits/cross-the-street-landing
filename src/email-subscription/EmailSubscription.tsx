@@ -1,5 +1,4 @@
 import { initializeApp } from 'firebase/app';
-import { getDatabase } from 'firebase/database';
 import { addDoc, collection, getFirestore } from 'firebase/firestore';
 import type { ChangeEvent } from 'react';
 import React, { useState } from 'react';
@@ -25,7 +24,7 @@ const EmailSubscription = () => {
     setInputValue(event.target.value);
   };
 
-  const handleSubmit = (event: React.MouseEventHandler<HTMLButtonElement>) => {
+  const handleSubmit: React.MouseEventHandler<HTMLButtonElement> = (event) => {
     event.preventDefault();
     const db = getFirestore(app);
     // Data to be inserted
@@ -43,7 +42,12 @@ const EmailSubscription = () => {
   return (
     <div>
       <form className="flex flex-col">
-        <label className="text-slate-900">Join for important updates</label>
+        <label
+          style={{ textShadow: '0px 0px 3px white' }}
+          className="text-lg text-slate-900"
+        >
+          Stay tuned for important updates
+        </label>
         <div>
           <input
             className="focus:shadow-outline appearance-none rounded border px-3 py-2 leading-tight text-gray-700 shadow focus:outline-none"
@@ -57,7 +61,7 @@ const EmailSubscription = () => {
             className="rounded bg-blue-500 px-4 py-2 font-bold text-white hover:bg-blue-700"
             onClick={handleSubmit}
           >
-            Button
+            Submit
           </button>
           {/* <button className="btn btn-blue">Subscribe</button> */}
         </div>
